@@ -15,4 +15,32 @@
 // Creating a custom padding between columns.
 $grid-gutter-width: 10px;
 
+
 @import "compass/css3/border-radius";
+//@import 'bootstrap-sass-official/vendor/assets/stylesheets/bootstrap';
+//@import "mixins";
+@import "pages/curriculum";
+
+body {
+  font-family: "freight-text-pro"; /* 1 */
+  font-size: 18px;
+  line-height: 30px;
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+  // Show a background image that can be used to debug your alignments.
+  // @include debug-vertical-alignment();
+}
+
+h1, h2, h3, h4, h5, h6, .h1, 
+.h2, .h3, .h4, .h5, .h6 {
+  font-family: "pt-sans";  
+}
+
+header#navbar {
+  a.logo {
+    margin-top: 13.5px;
+    img {
+      max-height: 32px;
+    }
+  }
+}
