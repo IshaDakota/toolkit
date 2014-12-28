@@ -8,6 +8,15 @@
  * https://drupal.org/node/1707736
  */
 
-.pane-node-field-header-image {
-  margin-top: 20px;
+.node-type-curriculum-content {
+
+  .pane-node-field-header-image {
+    margin-top: 20px;
+  }
+  
+  .glyphicon {
+    margin-right: 5px;
+    font-size: .75em;
+  }
 }
+
