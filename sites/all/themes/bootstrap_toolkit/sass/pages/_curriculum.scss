@@ -18,5 +18,23 @@
     margin-right: 5px;
     font-size: .75em;
   }
+  
+  .jumbotron {
+    overflow: auto;
+  }
+  .pane-node-field-age-range,
+  .pane-node-field-program-duration {
+    display: inline;
+    float: left;
+    margin-right: 40px;
+  }
+  
+  .field-name-field-age-range, 
+  .field-name-field-program-duration {
+    .field-item {
+      display: inline;
+      margin-right: 10px;
+    }
+  }
 }
 
