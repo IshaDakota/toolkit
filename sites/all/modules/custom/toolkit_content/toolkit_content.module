@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Toolkit Content feature.
+ */
+
+include_once 'toolkit_content.features.inc';
